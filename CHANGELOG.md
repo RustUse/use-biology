@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [0.1.0](https://github.com/RustUse/use-biology/releases/tag/use-biology-v0.1.0) - 2026-05-18
+
+### Changed
+
+- Add initial use-biology workspace and CI
+
 ### Added
 
 - Added the initial `use-biology` workspace with focused primitive vocabulary crates for taxonomy, species names, organisms, cells, genes, traits, tissues, organs, biological systems, life stages, and reproduction.
