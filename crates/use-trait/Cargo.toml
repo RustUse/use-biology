@@ -1,0 +1,21 @@
+[package]
+name = "use-trait"
+description = "Primitive biological trait and phenotype vocabulary for RustUse"
+publish = true
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-trait"
+keywords = ["trait", "phenotype", "biology", "vocabulary", "rustuse"]
+categories = ["data-structures", "science"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true

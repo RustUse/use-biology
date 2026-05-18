@@ -1,0 +1,62 @@
+[workspace]
+members = [
+    "crates/use-biology",
+    "crates/use-taxonomy",
+    "crates/use-species",
+    "crates/use-organism",
+    "crates/use-cell",
+    "crates/use-gene",
+    "crates/use-trait",
+    "crates/use-tissue",
+    "crates/use-organ",
+    "crates/use-biological-system",
+    "crates/use-life-stage",
+    "crates/use-reproduction",
+]
+resolver = "3"
+
+[workspace.package]
+authors = ["RustUse Contributors"]
+edition = "2024"
+homepage = "https://rustuse.org"
+license = "MIT OR Apache-2.0"
+publish = false
+readme = "README.md"
+repository = "https://github.com/RustUse/use-biology"
+rust-version = "1.95.0"
+version = "0.1.0"
+
+[workspace.dependencies]
+use-biological-system = { version = "0.1.0", path = "crates/use-biological-system" }
+use-biology = { version = "0.1.0", path = "crates/use-biology" }
+use-cell = { version = "0.1.0", path = "crates/use-cell" }
+use-gene = { version = "0.1.0", path = "crates/use-gene" }
+use-life-stage = { version = "0.1.0", path = "crates/use-life-stage" }
+use-organ = { version = "0.1.0", path = "crates/use-organ" }
+use-organism = { version = "0.1.0", path = "crates/use-organism" }
+use-reproduction = { version = "0.1.0", path = "crates/use-reproduction" }
+use-species = { version = "0.1.0", path = "crates/use-species" }
+use-taxonomy = { version = "0.1.0", path = "crates/use-taxonomy" }
+use-tissue = { version = "0.1.0", path = "crates/use-tissue" }
+use-trait = { version = "0.1.0", path = "crates/use-trait" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.metadata.rustuse.release]
+publish = false
+versioning = "lockstep-0.x"
+first-publish-candidates = [
+    "use-taxonomy",
+    "use-species",
+    "use-cell",
+    "use-gene",
+    "use-trait",
+    "use-tissue",
+    "use-organ",
+    "use-biological-system",
+    "use-life-stage",
+    "use-reproduction",
+    "use-organism",
+    "use-biology",
+]

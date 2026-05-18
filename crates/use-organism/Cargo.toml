@@ -1,0 +1,25 @@
+[package]
+name = "use-organism"
+description = "Primitive organism identity and classification vocabulary for RustUse"
+publish = true
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-organism"
+keywords = ["organism", "biology", "species", "taxonomy", "rustuse"]
+categories = ["data-structures", "science"]
+
+[dependencies]
+use-species.workspace = true
+use-taxonomy.workspace = true
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true

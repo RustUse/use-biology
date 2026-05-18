@@ -1,0 +1,99 @@
+[workspace]
+release = false
+release_always = false
+changelog_update = false
+pr_labels = ["release"]
+max_analyze_commits = 2000
+
+[[package]]
+name = "use-taxonomy"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-species"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-cell"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-gene"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-trait"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-tissue"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-organ"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-biological-system"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-life-stage"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-reproduction"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-organism"
+release = true
+version_group = "rustuse-biology"
+
+[[package]]
+name = "use-biology"
+release = true
+version_group = "rustuse-biology"
+changelog_update = true
+changelog_path = "./CHANGELOG.md"
+changelog_include = [
+  "use-taxonomy",
+  "use-species",
+  "use-cell",
+  "use-gene",
+  "use-trait",
+  "use-tissue",
+  "use-organ",
+  "use-biological-system",
+  "use-life-stage",
+  "use-reproduction",
+  "use-organism",
+]
+
+[changelog]
+header = """# Changelog
+
+## Unreleased
+"""
+protect_breaking_commits = true
+sort_commits = "oldest"
+commit_parsers = [
+  { message = "^feat(?:\\([^)]+\\))?!?: .+", group = "Added" },
+  { message = "^fix(?:\\([^)]+\\))?!?: .+", group = "Fixed" },
+  { message = "^security(?:\\([^)]+\\))?!?: .+", group = "Security" },
+  { message = "^(?:refactor|perf|change)(?:\\([^)]+\\))?!?: .+", group = "Changed" },
+  { message = "^docs(?:\\([^)]+\\))?!?: .+", group = "Documentation" },
+  { message = "^(?:build|ci|chore|deps|test)(?:\\([^)]+\\))?!?: .+", group = "Tooling" },
+  { footer = "^changelog: ?ignore$", skip = true },
+  { message = "^.*", group = "Changed" },
+]
