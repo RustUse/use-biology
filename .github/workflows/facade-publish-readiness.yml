@@ -21,7 +21,7 @@ jobs:
         use-taxonomy use-species use-biological-cell use-gene use-trait use-tissue use-organ use-biological-system use-life-stage use-reproduction use-organism
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install stable Rust toolchain
         uses: actions-rust-lang/setup-rust-toolchain@v1
