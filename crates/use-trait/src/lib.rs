@@ -233,13 +233,13 @@ impl Phenotype {
 
     /// Returns the trait count.
     #[must_use]
-    pub fn len(&self) -> usize {
+    pub const fn len(&self) -> usize {
         self.traits.len()
     }
 
     /// Returns `true` when no trait values are present.
     #[must_use]
-    pub fn is_empty(&self) -> bool {
+    pub const fn is_empty(&self) -> bool {
         self.traits.is_empty()
     }
 }

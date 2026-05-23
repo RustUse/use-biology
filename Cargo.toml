@@ -4,7 +4,7 @@ members = [
     "crates/use-taxonomy",
     "crates/use-species",
     "crates/use-organism",
-    "crates/use-cell",
+    "crates/use-biological-cell",
     "crates/use-gene",
     "crates/use-trait",
     "crates/use-tissue",
@@ -29,7 +29,7 @@ version = "0.1.0"
 [workspace.dependencies]
 use-biological-system = { version = "0.1.0", path = "crates/use-biological-system" }
 use-biology = { version = "0.1.0", path = "crates/use-biology" }
-use-cell = { version = "0.1.0", path = "crates/use-cell" }
+use-cell = { package = "use-biological-cell", version = "0.1.0", path = "crates/use-biological-cell" }
 use-gene = { version = "0.1.0", path = "crates/use-gene" }
 use-life-stage = { version = "0.1.0", path = "crates/use-life-stage" }
 use-organ = { version = "0.1.0", path = "crates/use-organ" }
@@ -49,7 +49,7 @@ versioning = "lockstep-0.x"
 first-publish-candidates = [
     "use-taxonomy",
     "use-species",
-    "use-cell",
+    "use-biological-cell",
     "use-gene",
     "use-trait",
     "use-tissue",

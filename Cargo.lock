@@ -3,6 +3,10 @@
 version = 4
 
 [[package]]
+name = "use-biological-cell"
+version = "0.1.0"
+
+[[package]]
 name = "use-biological-system"
 version = "0.1.0"
 
@@ -10,8 +14,8 @@ version = "0.1.0"
 name = "use-biology"
 version = "0.1.0"
 dependencies = [
+ "use-biological-cell",
  "use-biological-system",
- "use-cell",
  "use-gene",
  "use-life-stage",
  "use-organ",
@@ -22,10 +26,6 @@ dependencies = [
  "use-tissue",
  "use-trait",
 ]
-
-[[package]]
-name = "use-cell"
-version = "0.1.0"
 
 [[package]]
 name = "use-gene"

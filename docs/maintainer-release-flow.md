@@ -26,7 +26,7 @@ This document describes how maintainers should run releases with the current `re
 
 Do not use `Release Publish Automation` for the first public crates.io wave.
 
-1. Confirm the intended first-wave publishable crates are still `use-taxonomy`, `use-species`, `use-cell`, `use-gene`, `use-trait`, `use-tissue`, `use-organ`, `use-biological-system`, `use-life-stage`, `use-reproduction`, `use-organism`, and `use-biology`.
+1. Confirm the intended first-wave publishable crates are still `use-taxonomy`, `use-species`, `use-biological-cell`, `use-gene`, `use-trait`, `use-tissue`, `use-organ`, `use-biological-system`, `use-life-stage`, `use-reproduction`, `use-organism`, and `use-biology`.
 2. Run the full publish-readiness checks.
 3. Dry-run and then publish focused crates in the order documented in [RELEASE.md](../RELEASE.md).
 4. Wait for crates.io index propagation.

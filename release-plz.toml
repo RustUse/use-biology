@@ -16,7 +16,7 @@ release = true
 version_group = "rustuse-biology"
 
 [[package]]
-name = "use-cell"
+name = "use-biological-cell"
 release = true
 version_group = "rustuse-biology"
 
@@ -69,7 +69,7 @@ changelog_path = "./CHANGELOG.md"
 changelog_include = [
   "use-taxonomy",
   "use-species",
-  "use-cell",
+  "use-biological-cell",
   "use-gene",
   "use-trait",
   "use-tissue",

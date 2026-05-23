@@ -1,5 +1,5 @@
 [package]
-name = "use-cell"
+name = "use-biological-cell"
 description = "Primitive cell vocabulary for RustUse"
 publish = true
 version.workspace = true
@@ -10,9 +10,13 @@ repository.workspace = true
 homepage.workspace = true
 rust-version.workspace = true
 readme = "README.md"
-documentation = "https://docs.rs/use-cell"
+documentation = "https://docs.rs/use-biological-cell"
 keywords = ["cell", "organelle", "biology", "vocabulary", "rustuse"]
 categories = ["data-structures", "science"]
+
+[lib]
+name = "use_cell"
+path = "src/lib.rs"
 
 [package.metadata.docs.rs]
 all-features = true

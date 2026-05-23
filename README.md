@@ -18,7 +18,7 @@ A future `use-bioinformatics` set may own sequence analysis, alignment, motifs, 
 - `use-taxonomy`: primitive biological classification vocabulary
 - `use-species`: primitive species naming vocabulary
 - `use-organism`: organism identity and classification vocabulary
-- `use-cell`: primitive cell vocabulary
+- `use-biological-cell`: primitive cell vocabulary
 - `use-gene`: primitive gene identity vocabulary
 - `use-trait`: biological trait and phenotype vocabulary
 - `use-tissue`: primitive tissue vocabulary

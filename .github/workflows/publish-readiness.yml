@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FOCUSED_CRATES: >-
-        use-taxonomy use-species use-cell use-gene use-trait use-tissue use-organ use-biological-system use-life-stage use-reproduction use-organism
+        use-taxonomy use-species use-biological-cell use-gene use-trait use-tissue use-organ use-biological-system use-life-stage use-reproduction use-organism
     steps:
       - name: Check out repository
         uses: actions/checkout@v4

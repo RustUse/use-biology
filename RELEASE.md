@@ -10,7 +10,7 @@ Publish focused crates first:
 
 1. `use-taxonomy`
 2. `use-species`
-3. `use-cell`
+3. `use-biological-cell`
 4. `use-gene`
 5. `use-trait`
 6. `use-tissue`

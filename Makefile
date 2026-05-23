@@ -1,6 +1,6 @@
 .PHONY: help fmt check lint test test-minimal build doc examples audit deny sbom publish-dry-run-focused publish-dry-run-facade release-readiness facade-post-publish-validation verify
 
-FOCUSED_CRATES := use-taxonomy use-species use-cell use-gene use-trait use-tissue use-organ use-biological-system use-life-stage use-reproduction use-organism
+FOCUSED_CRATES := use-taxonomy use-species use-biological-cell use-gene use-trait use-tissue use-organ use-biological-system use-life-stage use-reproduction use-organism
 
 help:
 	@printf "%s\n" \

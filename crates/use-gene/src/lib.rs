@@ -287,13 +287,13 @@ impl Genotype {
 
     /// Returns the allele count.
     #[must_use]
-    pub fn len(&self) -> usize {
+    pub const fn len(&self) -> usize {
         self.alleles.len()
     }
 
     /// Returns `true` when no alleles are present.
     #[must_use]
-    pub fn is_empty(&self) -> bool {
+    pub const fn is_empty(&self) -> bool {
         self.alleles.is_empty()
     }
 }

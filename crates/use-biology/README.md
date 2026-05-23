@@ -1,6 +1,6 @@
 # use-biology
 
-Facade crate for primitive RustUse biology vocabulary.
+Facade crate for primitive `RustUse` biology vocabulary.
 
 `use-biology` re-exports focused crates for taxonomy, species names, organisms, cells, genes, traits, tissues, organs, biological systems, life stages, and reproduction. It is not a bioinformatics framework, medical library, taxonomy database, ecology simulator, lab information system, disease model, or biological simulation framework.
 
